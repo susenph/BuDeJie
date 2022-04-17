@@ -1,0 +1,72 @@
+{
+  "_buildCommand2" : {
+    "command" : "prepareForIndexing",
+    "enableIndexBuildArena" : false,
+    "targets" : null
+  },
+  "buildCommand" : "build",
+  "configuredTargets" : [
+    {
+      "guid" : "f5a640fa8a6eec7941ad838368db035ea0440922b35a768210414f6019d17945"
+    },
+    {
+      "guid" : "f5a640fa8a6eec7941ad838368db035e85785d6bcad39dab2925d73e54c23a23"
+    },
+    {
+      "guid" : "f5a640fa8a6eec7941ad838368db035e4ab82280a88eeafd75b6fe82848bb9cc"
+    }
+  ],
+  "containerPath" : "/Users/suwenjian/Public/learnSpace/IOS/oc_project/BuDeJie/BuDeJie.xcodeproj",
+  "continueBuildingAfterErrors" : true,
+  "enableIndexBuildArena" : false,
+  "hideShellScriptEnvironment" : false,
+  "parameters" : {
+    "action" : "build",
+    "activeArchitecture" : "arm64",
+    "activeRunDestination" : {
+      "disableOnlyActiveArch" : false,
+      "platform" : "iphoneos",
+      "sdk" : "iphoneos15.4",
+      "sdkVariant" : "iphoneos",
+      "supportedArchitectures" : [
+        "arm64v8",
+        "arm64",
+        "armv8"
+      ],
+      "targetArchitecture" : "arm64"
+    },
+    "arenaInfo" : {
+      "buildIntermediatesPath" : "",
+      "buildProductsPath" : "",
+      "derivedDataPath" : "/Users/suwenjian/Library/Developer/Xcode/DerivedData",
+      "indexDataStoreFolderPath" : "/Users/suwenjian/Library/Developer/Xcode/DerivedData/BuDeJie-dhyeozsfxmhqiifqkpkgvxvpkqxu/Index/DataStore",
+      "indexEnableDataStore" : true,
+      "indexPCHPath" : "/Users/suwenjian/Library/Developer/Xcode/DerivedData/BuDeJie-dhyeozsfxmhqiifqkpkgvxvpkqxu/Index/PrecompiledHeaders",
+      "pchPath" : ""
+    },
+    "configurationName" : "Debug",
+    "overrides" : {
+      "synthesized" : {
+        "table" : {
+          "ASSETCATALOG_FILTER_FOR_DEVICE_MODEL" : "iPhone8,1",
+          "ASSETCATALOG_FILTER_FOR_DEVICE_OS_VERSION" : "13.4.1",
+          "BUILD_ACTIVE_RESOURCES_ONLY" : "YES",
+          "ENABLE_PREVIEWS" : "NO",
+          "TARGET_DEVICE_IDENTIFIER" : "ff3f4f0c80b5c2547987f7602cfb19d709ff1d25",
+          "TARGET_DEVICE_MODEL" : "iPhone8,1",
+          "TARGET_DEVICE_OS_VERSION" : "13.4.1",
+          "TARGET_DEVICE_PLATFORM_NAME" : "iphoneos"
+        }
+      }
+    }
+  },
+  "qos" : "default",
+  "schemeCommand" : "launch",
+  "schemeCommand2" : "launch",
+  "shouldCollectMetrics" : false,
+  "showNonLoggedProgress" : true,
+  "useDryRun" : true,
+  "useImplicitDependencies" : true,
+  "useLegacyBuildLocations" : false,
+  "useParallelTargets" : true
+}
