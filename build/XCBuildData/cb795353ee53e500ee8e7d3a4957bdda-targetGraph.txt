@@ -1,6 +1,0 @@
-Target dependency graph (3 targets)
-BuDeJie in BuDeJie, no dependencies
-BuDeJieTests in BuDeJie, depends on:
-BuDeJie in BuDeJie (explicit)
-BuDeJieUITests in BuDeJie, depends on:
-BuDeJie in BuDeJie (explicit)
