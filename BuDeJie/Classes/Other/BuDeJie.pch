@@ -16,6 +16,17 @@
 #import "UIView+SSPFrame.h"
 #import "UIBarButtonItem+SSPItem.h"
 
+/*屏幕适配*/
+#define SSPScreenH [UIScreen mainScreen].bounds.size.height
+#define SSPScreenW [UIScreen mainScreen].bounds.size.width
+#define iphone6P (SSPScreenH == 736)
+#define iphone6 (SSPScreenH == 667)
+#define iphone5 (SSPScreenH == 568)
+#define iphone4 (SSPScreenH == 480)
+/*屏幕适配*/
+
+#define IOSversion [[[UIDevice currentDevice] systemVersion] floatValue]
+
 #define SSPFunc SSPLog(@"%s", __func__)
 
 #ifdef DEBUG

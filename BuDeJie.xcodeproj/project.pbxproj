@@ -8,6 +8,18 @@
 
 /* Begin PBXBuildFile section */
 		0745EEDF280C0A7900C3D3E8 /* UIBarButtonItem+SSPItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 0745EEDE280C0A7900C3D3E8 /* UIBarButtonItem+SSPItem.m */; };
+		07A37A4028256C97002C0591 /* SSPUINavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 07A37A3F28256C97002C0591 /* SSPUINavigationController.m */; };
+		07A37A472827790E002C0591 /* SSPSettingViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 07A37A462827790E002C0591 /* SSPSettingViewController.m */; };
+		07A37A4E2827A277002C0591 /* SSPAdViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 07A37A4D2827A277002C0591 /* SSPAdViewController.m */; };
+		07A37A522827A43F002C0591 /* SSPAdViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 07A37A512827A43F002C0591 /* SSPAdViewController.xib */; };
+		07A37A5B2827DDA8002C0591 /* LaunchImage@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 07A37A542827DDA8002C0591 /* LaunchImage@2x.png */; };
+		07A37A5C2827DDA8002C0591 /* LaunchImage-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 07A37A552827DDA8002C0591 /* LaunchImage-568h@2x.png */; };
+		07A37A5D2827DDA8002C0591 /* LaunchImage-800-667h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 07A37A562827DDA8002C0591 /* LaunchImage-800-667h@2x.png */; };
+		07A37A5E2827DDA8002C0591 /* LaunchImage-800-Portrait-736h@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 07A37A572827DDA8002C0591 /* LaunchImage-800-Portrait-736h@3x.png */; };
+		07A37A5F2827DDA8002C0591 /* LaunchImage-700@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 07A37A582827DDA8002C0591 /* LaunchImage-700@2x.png */; };
+		07A37A602827DDA8002C0591 /* LaunchImage-700-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 07A37A592827DDA8002C0591 /* LaunchImage-700-568h@2x.png */; };
+		07A37A612827DDA8002C0591 /* LaunchImage.png in Resources */ = {isa = PBXBuildFile; fileRef = 07A37A5A2827DDA8002C0591 /* LaunchImage.png */; };
+		07A37A6428295015002C0591 /* SSPADItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 07A37A6328295015002C0591 /* SSPADItem.m */; };
 		07B889B1280B0409000F2819 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 07B889AF280B0409000F2819 /* Main.storyboard */; };
 		07B889B3280B040C000F2819 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 07B889B2280B040C000F2819 /* Assets.xcassets */; };
 		07B889B6280B040C000F2819 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 07B889B4280B040C000F2819 /* LaunchScreen.storyboard */; };
@@ -26,6 +38,7 @@
 		07B88A15280BD4E7000F2819 /* UIImage+SSPImage.m in Sources */ = {isa = PBXBuildFile; fileRef = 07B88A14280BD4E7000F2819 /* UIImage+SSPImage.m */; };
 		07B88A18280BEBE5000F2819 /* SSPTabBar.m in Sources */ = {isa = PBXBuildFile; fileRef = 07B88A17280BEBE5000F2819 /* SSPTabBar.m */; };
 		07B88A1B280BFC67000F2819 /* UIView+SSPFrame.m in Sources */ = {isa = PBXBuildFile; fileRef = 07B88A1A280BFC66000F2819 /* UIView+SSPFrame.m */; };
+		F19017B2BFBF1C7DB226A8BD /* libPods-BuDeJie.a in Frameworks */ = {isa = PBXBuildFile; fileRef = A92D575C8C53023789463004 /* libPods-BuDeJie.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +62,22 @@
 		0745EEDC280C00AA00C3D3E8 /* BuDeJie.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BuDeJie.pch; sourceTree = "<group>"; };
 		0745EEDD280C0A7800C3D3E8 /* UIBarButtonItem+SSPItem.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIBarButtonItem+SSPItem.h"; sourceTree = "<group>"; };
 		0745EEDE280C0A7900C3D3E8 /* UIBarButtonItem+SSPItem.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIBarButtonItem+SSPItem.m"; sourceTree = "<group>"; };
+		07A37A3E28256C97002C0591 /* SSPUINavigationController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SSPUINavigationController.h; sourceTree = "<group>"; };
+		07A37A3F28256C97002C0591 /* SSPUINavigationController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SSPUINavigationController.m; sourceTree = "<group>"; };
+		07A37A452827790E002C0591 /* SSPSettingViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SSPSettingViewController.h; sourceTree = "<group>"; };
+		07A37A462827790E002C0591 /* SSPSettingViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SSPSettingViewController.m; sourceTree = "<group>"; };
+		07A37A4C2827A277002C0591 /* SSPAdViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SSPAdViewController.h; sourceTree = "<group>"; };
+		07A37A4D2827A277002C0591 /* SSPAdViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SSPAdViewController.m; sourceTree = "<group>"; };
+		07A37A512827A43F002C0591 /* SSPAdViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SSPAdViewController.xib; sourceTree = "<group>"; };
+		07A37A542827DDA8002C0591 /* LaunchImage@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "LaunchImage@2x.png"; sourceTree = "<group>"; };
+		07A37A552827DDA8002C0591 /* LaunchImage-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "LaunchImage-568h@2x.png"; sourceTree = "<group>"; };
+		07A37A562827DDA8002C0591 /* LaunchImage-800-667h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "LaunchImage-800-667h@2x.png"; sourceTree = "<group>"; };
+		07A37A572827DDA8002C0591 /* LaunchImage-800-Portrait-736h@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "LaunchImage-800-Portrait-736h@3x.png"; sourceTree = "<group>"; };
+		07A37A582827DDA8002C0591 /* LaunchImage-700@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "LaunchImage-700@2x.png"; sourceTree = "<group>"; };
+		07A37A592827DDA8002C0591 /* LaunchImage-700-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "LaunchImage-700-568h@2x.png"; sourceTree = "<group>"; };
+		07A37A5A2827DDA8002C0591 /* LaunchImage.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = LaunchImage.png; sourceTree = "<group>"; };
+		07A37A6228295015002C0591 /* SSPADItem.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SSPADItem.h; sourceTree = "<group>"; };
+		07A37A6328295015002C0591 /* SSPADItem.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SSPADItem.m; sourceTree = "<group>"; };
 		07B889A3280B0408000F2819 /* BuDeJie.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BuDeJie.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		07B889B0280B0409000F2819 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		07B889B2280B040C000F2819 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -82,6 +111,9 @@
 		07B88A17280BEBE5000F2819 /* SSPTabBar.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SSPTabBar.m; sourceTree = "<group>"; };
 		07B88A19280BFC66000F2819 /* UIView+SSPFrame.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIView+SSPFrame.h"; sourceTree = "<group>"; };
 		07B88A1A280BFC66000F2819 /* UIView+SSPFrame.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIView+SSPFrame.m"; sourceTree = "<group>"; };
+		757546D3F3AE43F14FBBAE79 /* Pods-BuDeJie.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BuDeJie.debug.xcconfig"; path = "Target Support Files/Pods-BuDeJie/Pods-BuDeJie.debug.xcconfig"; sourceTree = "<group>"; };
+		A0E6605572B8EC7617866A2B /* Pods-BuDeJie.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BuDeJie.release.xcconfig"; path = "Target Support Files/Pods-BuDeJie/Pods-BuDeJie.release.xcconfig"; sourceTree = "<group>"; };
+		A92D575C8C53023789463004 /* libPods-BuDeJie.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-BuDeJie.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -89,6 +121,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F19017B2BFBF1C7DB226A8BD /* libPods-BuDeJie.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -109,6 +142,89 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		07A37A41282778CA002C0591 /* Setting(设置) */ = {
+			isa = PBXGroup;
+			children = (
+				07A37A42282778CA002C0591 /* Controller */,
+				07A37A43282778CA002C0591 /* Model */,
+				07A37A44282778CA002C0591 /* View */,
+			);
+			path = "Setting(设置)";
+			sourceTree = "<group>";
+		};
+		07A37A42282778CA002C0591 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				07A37A452827790E002C0591 /* SSPSettingViewController.h */,
+				07A37A462827790E002C0591 /* SSPSettingViewController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		07A37A43282778CA002C0591 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		07A37A44282778CA002C0591 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		07A37A482827A127002C0591 /* AD(广告) */ = {
+			isa = PBXGroup;
+			children = (
+				07A37A492827A127002C0591 /* Controller */,
+				07A37A4A2827A127002C0591 /* Model */,
+				07A37A4B2827A127002C0591 /* View */,
+			);
+			path = "AD(广告)";
+			sourceTree = "<group>";
+		};
+		07A37A492827A127002C0591 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				07A37A4C2827A277002C0591 /* SSPAdViewController.h */,
+				07A37A4D2827A277002C0591 /* SSPAdViewController.m */,
+				07A37A512827A43F002C0591 /* SSPAdViewController.xib */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		07A37A4A2827A127002C0591 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				07A37A6228295015002C0591 /* SSPADItem.h */,
+				07A37A6328295015002C0591 /* SSPADItem.m */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		07A37A4B2827A127002C0591 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		07A37A532827DDA8002C0591 /* 启动图片 */ = {
+			isa = PBXGroup;
+			children = (
+				07A37A542827DDA8002C0591 /* LaunchImage@2x.png */,
+				07A37A552827DDA8002C0591 /* LaunchImage-568h@2x.png */,
+				07A37A562827DDA8002C0591 /* LaunchImage-800-667h@2x.png */,
+				07A37A572827DDA8002C0591 /* LaunchImage-800-Portrait-736h@3x.png */,
+				07A37A582827DDA8002C0591 /* LaunchImage-700@2x.png */,
+				07A37A592827DDA8002C0591 /* LaunchImage-700-568h@2x.png */,
+				07A37A5A2827DDA8002C0591 /* LaunchImage.png */,
+			);
+			path = "启动图片";
+			sourceTree = "<group>";
+		};
 		07B8899A280B0408000F2819 = {
 			isa = PBXGroup;
 			children = (
@@ -116,6 +232,8 @@
 				07B889C1280B040C000F2819 /* BuDeJieTests */,
 				07B889CB280B040C000F2819 /* BuDeJieUITests */,
 				07B889A4280B0408000F2819 /* Products */,
+				774C73FFBC4CA60167495025 /* Pods */,
+				FAF9ABE69132EFAAA8101A18 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -133,6 +251,7 @@
 			isa = PBXGroup;
 			children = (
 				07B889B2280B040C000F2819 /* Assets.xcassets */,
+				07A37A532827DDA8002C0591 /* 启动图片 */,
 				07B889DB280B1944000F2819 /* Classes */,
 				07B889B7280B040C000F2819 /* Info.plist */,
 				07B889B4280B040C000F2819 /* LaunchScreen.storyboard */,
@@ -161,6 +280,7 @@
 		07B889DB280B1944000F2819 /* Classes */ = {
 			isa = PBXGroup;
 			children = (
+				07A37A482827A127002C0591 /* AD(广告) */,
 				07B88A08280B3015000F2819 /* Main(主要) */,
 				07B889DC280B1944000F2819 /* Essence(精华) */,
 				07B889E0280B1944000F2819 /* Other */,
@@ -288,6 +408,7 @@
 		07B889EE280B1944000F2819 /* Me(我) */ = {
 			isa = PBXGroup;
 			children = (
+				07A37A41282778CA002C0591 /* Setting(设置) */,
 				07B889EF280B1944000F2819 /* Controller */,
 				07B889F0280B1944000F2819 /* Model */,
 				07B889F1280B1944000F2819 /* View */,
@@ -366,6 +487,8 @@
 			children = (
 				07B88A0F280B3197000F2819 /* SSPTabBarController.h */,
 				07B88A10280B3197000F2819 /* SSPTabBarController.m */,
+				07A37A3E28256C97002C0591 /* SSPUINavigationController.h */,
+				07A37A3F28256C97002C0591 /* SSPUINavigationController.m */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -399,6 +522,23 @@
 			path = Category;
 			sourceTree = "<group>";
 		};
+		774C73FFBC4CA60167495025 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				757546D3F3AE43F14FBBAE79 /* Pods-BuDeJie.debug.xcconfig */,
+				A0E6605572B8EC7617866A2B /* Pods-BuDeJie.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		FAF9ABE69132EFAAA8101A18 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A92D575C8C53023789463004 /* libPods-BuDeJie.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -406,6 +546,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 07B889D2280B040C000F2819 /* Build configuration list for PBXNativeTarget "BuDeJie" */;
 			buildPhases = (
+				ED98EBD42E8A87FFAE14D277 /* [CP] Check Pods Manifest.lock */,
 				07B8899F280B0408000F2819 /* Sources */,
 				07B889A0280B0408000F2819 /* Frameworks */,
 				07B889A1280B0408000F2819 /* Resources */,
@@ -505,7 +646,15 @@
 			files = (
 				07B889B6280B040C000F2819 /* LaunchScreen.storyboard in Resources */,
 				07B889B3280B040C000F2819 /* Assets.xcassets in Resources */,
+				07A37A522827A43F002C0591 /* SSPAdViewController.xib in Resources */,
 				07B889B1280B0409000F2819 /* Main.storyboard in Resources */,
+				07A37A5E2827DDA8002C0591 /* LaunchImage-800-Portrait-736h@3x.png in Resources */,
+				07A37A5C2827DDA8002C0591 /* LaunchImage-568h@2x.png in Resources */,
+				07A37A602827DDA8002C0591 /* LaunchImage-700-568h@2x.png in Resources */,
+				07A37A5F2827DDA8002C0591 /* LaunchImage-700@2x.png in Resources */,
+				07A37A5D2827DDA8002C0591 /* LaunchImage-800-667h@2x.png in Resources */,
+				07A37A5B2827DDA8002C0591 /* LaunchImage@2x.png in Resources */,
+				07A37A612827DDA8002C0591 /* LaunchImage.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -525,6 +674,31 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		ED98EBD42E8A87FFAE14D277 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-BuDeJie-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		07B8899F280B0408000F2819 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
@@ -532,17 +706,21 @@
 			files = (
 				07B889FE280B1AFD000F2819 /* SSPFriendTrendViewController.m in Sources */,
 				07B88A07280B1B73000F2819 /* SSPPublishViewController.m in Sources */,
+				07A37A4028256C97002C0591 /* SSPUINavigationController.m in Sources */,
 				07B88A15280BD4E7000F2819 /* UIImage+SSPImage.m in Sources */,
 				07B889FB280B1A49000F2819 /* SSPEssenceViewController.m in Sources */,
 				0745EEDF280C0A7900C3D3E8 /* UIBarButtonItem+SSPItem.m in Sources */,
+				07A37A6428295015002C0591 /* SSPADItem.m in Sources */,
 				07B88A11280B3197000F2819 /* SSPTabBarController.m in Sources */,
 				07B88A1B280BFC67000F2819 /* UIView+SSPFrame.m in Sources */,
 				07B889F6280B1944000F2819 /* SceneDelegate.m in Sources */,
 				07B889F7280B1944000F2819 /* main.m in Sources */,
+				07A37A4E2827A277002C0591 /* SSPAdViewController.m in Sources */,
 				07B88A18280BEBE5000F2819 /* SSPTabBar.m in Sources */,
 				07B889F8280B1944000F2819 /* AppDelegate.m in Sources */,
 				07B88A01280B1B2D000F2819 /* SSPMeViewController.m in Sources */,
 				07B88A04280B1B4E000F2819 /* SSPNewViewController.m in Sources */,
+				07A37A472827790E002C0591 /* SSPSettingViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -653,6 +831,7 @@
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
+				USER_HEADER_SEARCH_PATHS = "";
 			};
 			name = Debug;
 		};
@@ -704,12 +883,14 @@
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
+				USER_HEADER_SEARCH_PATHS = "";
 				VALIDATE_PRODUCT = YES;
 			};
 			name = Release;
 		};
 		07B889D3280B040C000F2819 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 757546D3F3AE43F14FBBAE79 /* Pods-BuDeJie.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -719,6 +900,11 @@
 				DEVELOPMENT_TEAM = LLUD534CCC;
 				GCC_PREFIX_HEADER = BuDeJie/Classes/Other/BuDeJie.pch;
 				GENERATE_INFOPLIST_FILE = YES;
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"${PODS_ROOT}/Headers/Public\"",
+					"\"${PODS_ROOT}/Headers/Public/AFNetworking\"",
+				);
 				INFOPLIST_FILE = BuDeJie/Info.plist;
 				INFOPLIST_KEY_CFBundleDisplayName = " ";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
@@ -738,11 +924,13 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				TARGETED_DEVICE_FAMILY = 1;
+				USER_HEADER_SEARCH_PATHS = "$(PODS_ROOT)/**";
 			};
 			name = Debug;
 		};
 		07B889D4280B040C000F2819 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A0E6605572B8EC7617866A2B /* Pods-BuDeJie.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -752,6 +940,11 @@
 				DEVELOPMENT_TEAM = LLUD534CCC;
 				GCC_PREFIX_HEADER = BuDeJie/Classes/Other/BuDeJie.pch;
 				GENERATE_INFOPLIST_FILE = YES;
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"${PODS_ROOT}/Headers/Public\"",
+					"\"${PODS_ROOT}/Headers/Public/AFNetworking\"",
+				);
 				INFOPLIST_FILE = BuDeJie/Info.plist;
 				INFOPLIST_KEY_CFBundleDisplayName = " ";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
@@ -771,6 +964,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				TARGETED_DEVICE_FAMILY = 1;
+				USER_HEADER_SEARCH_PATHS = "$(PODS_ROOT)/**";
 			};
 			name = Release;
 		};

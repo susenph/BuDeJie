@@ -21,6 +21,19 @@
     return [[UIBarButtonItem alloc] initWithCustomView:containView];
 }
 
++ (UIBarButtonItem *)backItemWithImage:(UIImage *)image withHightImage:(UIImage *)heightImage addTarget:(id)target action:(SEL)action title:(NSString *)title {
+    UIButton *backBtn = [UIButton buttonWithType:UIButtonTypeCustom];
+    [backBtn setTitle:title forState:UIControlStateNormal];
+    [backBtn setImage:image forState:UIControlStateNormal];
+    [backBtn setImage:heightImage forState:UIControlStateHighlighted];
+    [backBtn setTitleColor:[UIColor blackColor] forState:UIControlStateNormal];
+    [backBtn setTitleColor:[UIColor redColor] forState:UIControlStateHighlighted];
+    [backBtn sizeToFit];
+    backBtn.contentEdgeInsets = UIEdgeInsetsMake(0, -20, 0, 0);
+    [backBtn addTarget:target action:action forControlEvents:UIControlEventTouchUpInside];
+    return [[UIBarButtonItem alloc] initWithCustomView:backBtn];
+}
+
 + (UIBarButtonItem *)itemWithImage:(UIImage *)image withSelImage:(UIImage *)selImage addTarget:(nullable id)target action:(SEL)action {
     UIButton *btn = [UIButton buttonWithType:UIButtonTypeCustom];
     [btn setImage:image forState:UIControlStateNormal];

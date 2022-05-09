@@ -13,6 +13,7 @@
 #import "SSPFriendTrendViewController.h"
 #import "UIImage+SSPImage.h"
 #import "SSPTabBar.h"
+#import "SSPUINavigationController.h"
 
 @interface SSPTabBarController ()
 
@@ -81,10 +82,10 @@
 
 #pragma mark - 添加所有子控制器
 - (void)addCustomChildViewController:(UIViewController *) vc withTitle:(NSString *) title withImage:(UIImage *) image withSelectImage:(UIImage *) selectImage {
-    UINavigationController *nav = [[UINavigationController alloc] initWithRootViewController:vc];
+    SSPUINavigationController *nav = [[SSPUINavigationController alloc] initWithRootViewController:vc];
     nav.tabBarItem.title = title;
     nav.tabBarItem.image = image;
-    nav.tabBarItem.selectedImage = selectImage;
+    nav.tabBarItem.selectedImage = [selectImage imageWithRenderingMode:UIImageRenderingModeAlwaysOriginal];
     [self addChildViewController:nav];
 }
 

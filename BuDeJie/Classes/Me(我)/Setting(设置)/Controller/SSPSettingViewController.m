@@ -1,63 +1,23 @@
 //
-//  SSPMeViewController.m
+//  SSPSettingViewController.m
 //  BuDeJie
 //
-//  Created by 苏文建 on 2022/4/16.
+//  Created by 苏文建 on 2022/5/8.
 //
 
-#import "SSPMeViewController.h"
 #import "SSPSettingViewController.h"
 
-@interface SSPMeViewController ()
+@interface SSPSettingViewController ()
 
 @end
 
-@implementation SSPMeViewController
+@implementation SSPSettingViewController
 
 - (void)viewDidLoad {
     [super viewDidLoad];
     
-    // Uncomment the following line to preserve selection between presentations.
-    // self.clearsSelectionOnViewWillAppear = NO;
-    
-    // Uncomment the following line to display an Edit button in the navigation bar for this view controller.
-    // self.navigationItem.rightBarButtonItem = self.editButtonItem;
-    
-    [self setupNavBar];
+    self.title = @"设置";
 }
-
-#pragma mark - 设置导航条
-- (void)setupNavBar {
-    // titleView
-    self.navigationItem.title = @"我的";
-    // 设置
-    UIBarButtonItem *settingItem = [UIBarButtonItem itemWithImage:[UIImage imageNamed:@"mine-setting-icon"] withHightImage:[UIImage imageNamed:@"mine-setting-icon-click"] addTarget:self action:@selector(setting)];
-    // 夜间模式
-    UIBarButtonItem *nightItem = [UIBarButtonItem itemWithImage:[UIImage imageNamed:@"mine-moon-icon"] withSelImage:[UIImage imageNamed:@"mine-moon-icon-click"] addTarget:self action:@selector(night:)];
-    // 右边按钮
-    self.navigationItem.rightBarButtonItems = @[settingItem, nightItem];
-}
-
-#pragma mark - 监听right setting点击事件
-- (void)setting {
-    // 跳转到设置页面
-    SSPSettingViewController *settingVc = [[SSPSettingViewController alloc] init];
-    // 必须要在跳转之前设置
-    settingVc.hidesBottomBarWhenPushed = YES;
-    [self.navigationController pushViewController:settingVc animated:YES];
-    /*
-     1.底部条没有隐藏
-     2.处理返回按钮样式
-     */
-    
-}
-
-#pragma mark - 监听right night点击事件
-- (void)night:(UIButton *)button {
-    SSPFunc;
-    button.selected = !button.selected;
-}
-
 
 #pragma mark - Table view data source
 

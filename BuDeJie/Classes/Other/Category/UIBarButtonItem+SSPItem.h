@@ -12,6 +12,7 @@ NS_ASSUME_NONNULL_BEGIN
 @interface UIBarButtonItem (SSPItem)
 
 + (UIBarButtonItem *)itemWithImage:(UIImage *)image withHightImage:(UIImage *)heightImage addTarget:(nullable id)target action:(SEL)action;
++ (UIBarButtonItem *)backItemWithImage:(UIImage *)image withHightImage:(UIImage *)heightImage addTarget:(nullable id)target action:(SEL)action title:(NSString *)title;
 + (UIBarButtonItem *)itemWithImage:(UIImage *)image withSelImage:(UIImage *)selImage addTarget:(nullable id)target action:(SEL)action;
 
 @end

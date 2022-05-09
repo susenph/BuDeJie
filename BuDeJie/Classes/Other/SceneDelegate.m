@@ -6,7 +6,7 @@
 //
 
 #import "SceneDelegate.h"
-#import "SSPTabBarController.h"
+#import "SSPAdViewController.h"
 
 @interface SceneDelegate ()
 
@@ -25,9 +25,9 @@
         self.window = [[UIWindow alloc] initWithWindowScene:windowScene];
         self.window.frame = [UIScreen mainScreen].bounds;
         // 2.设置窗口根控制器
-        SSPTabBarController *tabBar = [[SSPTabBarController alloc] init];
+        SSPAdViewController *adVc = [[SSPAdViewController alloc] init];
         
-        self.window.rootViewController = tabBar;
+        self.window.rootViewController = adVc;
         // 3.显示窗口
         [self.window makeKeyAndVisible];
     }
